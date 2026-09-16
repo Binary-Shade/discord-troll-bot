@@ -1,0 +1,31 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Runtime data
+bot/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs / local test output
+*.log
+model_results.csv
+failed_models.txt
+testing-model.sh
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
